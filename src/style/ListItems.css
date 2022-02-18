@@ -1,0 +1,63 @@
+.List-container{
+    width: 35%;
+    height: 70%;
+
+
+    border-radius: 20px;
+
+    background: #fff;
+    box-shadow:  9px 9px 18px #bcbcba,
+             -9px -9px 18px #ffffff;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    margin-top: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.List-container .Scrol-list{
+    width: 98%;
+
+    overflow-y: scroll;
+    scrollbar-width: 20px;
+    scrollbar-color: #212529 #fff;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.List-container .Item{
+    width: 100%;
+    height: 60px;
+
+    margin-top: 15px;
+
+    border-radius: 10px;
+
+    background-color: white;
+    border: 1px solid darkgray;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.List-container .Item input{
+    width: 70%;
+    height: 40px;
+
+    border:none;
+    outline: none;
+    background-color: none;
+
+    font-size: 19px;
+
+}
